@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    margin: 0 auto;
+    background-color: aquamarine;
+    max-width: 960px;
+    width: 96%;
+}
+.profile-image{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid blue;
+    float: left;
+}
+.profile-info{
+    float: left;
+    padding: 30px;
+}
+.profile-contact{
+    float: right;
+}
+.profile-contact a{
+    color: black;
+}
+.profile-contact a:hover{
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal-section{}
+.container{
+    padding-bottom: 30px;
+}
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: left;
+    width: 70%;
+}
+.common-hr{
+    width: 100%;
+    border: solid black 1px;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.education-one{
+    float: left;
+    width: 45%;
+}
+.education-two{
+    float: left;
+    width: 45%;
+}
+.bottom-container{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+.bottom-container a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+.bottom-container p{
+    color: white;
+    margin: 10px;
+}
